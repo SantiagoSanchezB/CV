@@ -45,7 +45,7 @@ div#header #text{
     margin-bottom: 20px;
     margin-left: 50px;
     width: 140px;
-    height: 140px;
+    height: 180px;
     border: 3px solid #fff;
     border-radius: 80px ;
  }
@@ -122,12 +122,12 @@ a:hover {
 }
 #progress-CSS {
     background-color: #202c38;
-    width: 50%;
+    width: 80%;
     height: 10px;
 }
 #progress-PYTHON {
     background-color: #202c38;
-    width: 60%;
+    width: 70%;
     height: 10px;
 }
 #progress-FLASK {
@@ -147,7 +147,7 @@ a:hover {
 }
 #progress-BASH {
     background-color: #202c38;
-    width: 60%;
+    width: 70%;
     height: 10px;
 }
 #progress-GIT {
