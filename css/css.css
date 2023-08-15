@@ -39,13 +39,13 @@ div#header #text{
     margin-right: 20px;
 }
 
- #description {
+#description {
     letter-spacing: 0.1em;
     margin-top: 30px;
     font-size: 2.2 em;
- }
+}
 
- #image {
+#image {
     margin-top: 25px;
     margin-bottom: 20px;
     margin-left: 50px;
@@ -53,22 +53,22 @@ div#header #text{
     height: 180px;
     border: 3px solid #fff;
     border-radius: 80px ;
- }
+}
 
- #experience {
+#experience {
     background: #e6e6e9;
     padding: 10px;
     color: black;
     text-transform: uppercase;
     font-size: 18px;
- }
+}
 
- #experience-content {
+#experience-content {
     margin-right: 20px;
     display: grid;
     grid-template-columns: 1fr 4fr 8fr;
     
- }
+}
 
 #studies {
     background: #e6e6e9;
@@ -176,3 +176,82 @@ ul{
     list-style: none;
     padding: 0%;
 }
+
+@media screen and (max-width: 420px) {
+    #header{
+        grid-template-columns: 1fr;
+        background-color: #202c38;
+        color: #fcfcfe;
+    }
+    
+    #content {
+        margin-top: 0px !important;
+    }
+
+    #image {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        margin-left: 24%;
+        width: 140px;
+        height: 180px;
+        border: 3px solid #fff;
+        border-radius: 80px ;
+    }
+
+    #description {
+        margin-left: 13%;
+        margin-bottom: 10%;
+    }
+
+    .name {
+        margin-left: 6%;
+    }
+
+    
+    #text {
+        width: 300px;
+        margin-left: 10%;
+    }
+
+    #studies {
+        padding: 5px; /* Reducir espacio en las secciones */
+        font-size: 16px; /* Reducir tamaño de fuente */
+        margin-top: 0px; /* Reducir margen superior */
+    }
+
+    .experience {
+        margin-left: 2%;
+        margin-left: 2%;
+    }
+
+    #experience-content {
+        margin-right: 2%;
+        margin-left: 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .divider {
+        border: 1px solid black;
+    }
+
+    .check {
+        display: none;
+    }
+
+    #studies-content {
+        margin-right: 2%;
+        margin-left: 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .habilities {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Otros ajustes que consideres necesarios para pantallas pequeñas */
+}
+
